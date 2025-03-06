@@ -1,0 +1,25 @@
+settings:
+  prediction-threshold: 0.23  
+  name: 'ViT-B/32'
+  device: 'cuda'
+label-settings:
+  labels: # labels that can be predicted if model's confidence is more than "prediction-threshold"
+
+    - 'people walking on a street'
+    - 'buildings'
+    - 'fight'
+    - 'fire'
+    - 'violence'
+    - 'road'
+    - 'car crash'
+    - 'cars on a road'
+    - 'car parking area'
+    - 'cars'
+    - 'office environment'
+    - 'office corridor'
+    - 'people talking'
+    - 'people walking'
+    - 'person walking'
+    - 'group of people'
+  default-label: 'Unknown' # value to return if model's confidence is less than "prediction-threshold"
+
