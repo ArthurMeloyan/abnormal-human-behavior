@@ -1,6 +1,6 @@
 # Abnormal Human Behavior Detection
 
-This project focuses on detecting abnormal human behavior using computer vision techniques. The project leverages the UCF101 dataset for training a model capable of classifying various actions. The model processes both images and videos to predict human actions and abnormal behavior.
+This project focuses on detecting abnormal human behavior using computer vision techniques. The model leverages the pre-trained CLIP model from OpenAI, fine-tuned for the specific task of classifying and detecting abnormal behavior in video and image data. Rather than training from scratch, the project uses the power of CLIP’s image-text embeddings to interpret human actions and classify abnormal behavior directly from frames in videos and still images.
 
 ## Table of Contents
 - [Installation](#installation)
