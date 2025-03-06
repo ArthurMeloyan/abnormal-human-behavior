@@ -1,0 +1,30 @@
+# Директории виртуальных окружений
+venv/
+env/
+.venv/
+ENV/
+
+# Папки данных (если они слишком большие или не должны попадать в репозиторий)
+data/
+results/
+
+# Файлы Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Файлы IDE (например, PyCharm, VSCode)
+.vscode/
+.idea/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Данные log-файлов
+*.log
+
+# Папка с временными файлами
+*.swp
+
+# Файл с данными от пользователя
+*.sqlite3
