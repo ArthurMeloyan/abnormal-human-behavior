@@ -15,7 +15,7 @@ To get started with the project, you need to clone the repository and install th
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/abnormal-human-behavior.git
+    git clone https://github.com/ArthurMeloyan/abnormal-human-behavior.git
     cd abnormal-human-behavior
     ```
 
