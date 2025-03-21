@@ -1,25 +1,21 @@
 settings:
-  prediction-threshold: 0.23  
-  name: 'ViT-B/32'
+  prediction-threshold: 0.6  
+  name: 'ViT-H/14'
   device: 'cuda'
+
 label-settings:
-  labels: # labels that can be predicted if model's confidence is more than "prediction-threshold"
-
-    - 'people walking on a street'
-    - 'buildings'
-    - 'fight'
-    - 'fire'
+  labels:
+    # - 'people fighting'
+    # - 'violence'
+    # - 'person attacking'
+    # - 'person threatening'
+    # - 'suspicious behavior'
+    # - 'people running in panic'
+    # - 'person with weapon'
+    # - 'aggressive group behavior'
+    # - 'people screaming'
+    # - 'dangerous situation'
+    # - 'unusual crowd movement'
     - 'violence'
-    - 'road'
-    - 'car crash'
-    - 'cars on a road'
-    - 'car parking area'
-    - 'cars'
-    - 'office environment'
-    - 'office corridor'
-    - 'people talking'
-    - 'people walking'
-    - 'person walking'
-    - 'group of people'
-  default-label: 'Unknown' # value to return if model's confidence is less than "prediction-threshold"
 
+  default-label: 'normal behavior'
