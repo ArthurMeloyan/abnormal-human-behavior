@@ -5,17 +5,20 @@ settings:
 
 label-settings:
   labels:
-    # - 'people fighting'
-    # - 'violence'
-    # - 'person attacking'
-    # - 'person threatening'
-    # - 'suspicious behavior'
-    # - 'people running in panic'
-    # - 'person with weapon'
-    # - 'aggressive group behavior'
-    # - 'people screaming'
-    # - 'dangerous situation'
-    # - 'unusual crowd movement'
-    - 'violence'
+     - 'people fighting'
+     - 'violence'
+     - 'person attacking'
+     - 'person threatening'
+     - 'suspicious behavior'
+     - 'people running in panic'
+     - 'person with weapon'
+     - 'aggressive group behavior'
+     - 'people screaming'
+     - 'dangerous situation'
+     - 'unusual crowd movement'
+     - 'violence indoor'
+     - 'people walking in office'
+     - 'fight in office'
+  
 
   default-label: 'normal behavior'
